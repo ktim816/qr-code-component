@@ -1,0 +1,40 @@
+html,
+body {
+  @apply min-h-screen bg-very-dark-blue text-medium-grey;
+}
+
+html {
+  @apply antialiased scroll-smooth;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+a,
+span {
+  @apply inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-pure-white font-bold;
+}
+
+h3 {
+  @apply sm:text-3xl text-2xl;
+}
+
+p {
+  @apply text-light-grey sm:text-md text-sm;
+}
+
+svg {
+  @apply block max-w-full h-auto;
+}
