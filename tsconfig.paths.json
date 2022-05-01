@@ -11,6 +11,9 @@
       "@components": ["./components"],
       "@components/*": ["./components/*"],
 
+      "@helpers": ["./helpers"],
+      "@helpers/*": ["./helpers/*"],
+
       "@styles": ["./styles"],
       "@styles/*": ["./styles/*"]
     }

@@ -1,10 +1,10 @@
 module.exports = {
   transparent: 'transparent',
   current: 'currentColor',
-  orange: '#FC7614',
-  'dark-blue': '#262E38',
-  'light-grey': '#969FAD',
-  'medium-grey': '#7C8798',
-  'pure-white': '#FFFFFF',
-  'very-dark-blue': '#131518',
+  white: '#FFFFFF',
+  grey: '#7D889E',
+  blue: '#2C7DFA',
+  'light-grey': '#D5E1EF',
+  'blue-shade': '#3685FF',
+  'dark-navy': '#1F314F',
 };

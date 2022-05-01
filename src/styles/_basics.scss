@@ -1,6 +1,6 @@
 html,
 body {
-  @apply min-h-screen bg-very-dark-blue text-medium-grey;
+  @apply min-h-screen bg-light-grey text-grey;
 }
 
 html {
@@ -24,17 +24,13 @@ h3,
 h4,
 h5,
 h6 {
-  @apply text-pure-white font-bold;
+  @apply text-dark-navy font-bold;
 }
 
 h3 {
-  @apply sm:text-3xl text-2xl;
+  @apply text-xl;
 }
 
 p {
-  @apply text-light-grey sm:text-md text-sm;
-}
-
-svg {
-  @apply block max-w-full h-auto;
+  @apply text-md;
 }
